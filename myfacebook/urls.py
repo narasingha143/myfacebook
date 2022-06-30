@@ -16,7 +16,7 @@ Including another URLconf
 from xml.dom.minidom import Document
 from django.contrib import admin
 from django.urls import path,include
-from pytest import importorskip
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
